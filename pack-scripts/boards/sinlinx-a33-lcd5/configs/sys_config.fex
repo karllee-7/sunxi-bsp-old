@@ -586,7 +586,7 @@ lcd_used            = 1
 
 lcd_driver_name     = "default_lcd"
 lcd_if              = 0
-
+lcd_hv_if           = 0
 
 lcd_x               = 800
 lcd_y               = 480
@@ -1602,12 +1602,8 @@ s_powchk_used      = 0x80000000
 s_power_reg        = 0x00008061
 s_system_power     = 50
 
-[mali_para]
-mali_used = 1
-mali_clkdiv = 1
-mali_extreme_freq = 408
-mali_extreme_vol = 1100
-
+[gpu_mali400_0]
+freq = 384
 ;----------------------------------------------------------------------------------
 ; dram dvfs voltage-frequency table configuration
 ;
